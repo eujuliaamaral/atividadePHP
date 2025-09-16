@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada de 10</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center justify-center">
+    <div class="w-full max-w-md mx-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Gerador de Tabuada de 10</h1>
+            <form method="POST" action="tabuada.php" class="space-y-6">
+                <div>
+                    <label for="numero" class="block text-sm font-medium text-gray-700 mb-2">
+                        Digite até qual número deseja calcular a tabuada de 10:
+                    </label>
+                    <input 
+                        type="number" 
+                        id="numero" 
+                        name="numero" 
+                        required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition duration-200"
+                        placeholder="Digite um número"
+                    >
+                </div>
+                <button 
+                    type="submit" 
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                >
+                    Calcular Tabuada
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Atividade da aula 4, Loops e Manipulação (EXERCÍCIO 2) -->

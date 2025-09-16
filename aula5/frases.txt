@@ -1,0 +1,3 @@
+Primeira frase gravada no arquivo.
+Segunda frase gravada no arquivo.
+Terceira frase gravada no arquivo.
