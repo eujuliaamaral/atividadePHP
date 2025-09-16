@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nome": null,
+        "email": null
+    },
+    {
+        "id": 2,
+        "nome": null,
+        "email": null
+    },
+    {
+        "id": 3,
+        "nome": "Sandra",
+        "email": "amariajulia204@gmail.com",
+        "data_cadastro": "2025-09-16 21:40:00"
+    },
+    {
+        "id": 4,
+        "nome": "tia",
+        "email": "tarciaangela@outlook.com.br",
+        "data_cadastro": "2025-09-16 21:40:18"
+    },
+    {
+        "id": 5,
+        "nome": "joao",
+        "email": "jglacerda01@gmail.com",
+        "data_cadastro": "2025-09-16 21:45:13"
+    }
+]
